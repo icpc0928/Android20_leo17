@@ -18,6 +18,7 @@
         android:id="@+id/passwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
         />
     <EditText
         android:id="@+id/realname"
@@ -28,7 +29,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add"
-        android:onClick="Add"
+        android:onClick="add"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add_POST"
+        android:onClick="add2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="testJSON"
+        android:onClick="test1"
+        />
+    <TextView
+        android:id="@+id/mesg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         />
 
 </LinearLayout>
